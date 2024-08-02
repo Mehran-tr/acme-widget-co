@@ -1,7 +1,8 @@
 # Acme Widget Co Sales System
 
-Acme Widget Co are the leading provider of made up widgets and they’ve contracted you to
+  Acme Widget Co are the leading provider of made up widgets and they’ve contracted you to
 create a proof of concept for their new sales system.
+
 ## Requirements
 
 - PHP 8.2
@@ -64,4 +65,4 @@ To run the application using Docker:
 
 ## Authors
 
-- Mehran Taheri <mehran.taheri.t@gmail.com@gmail.com>
+- Mehran Taheri <mehran.taheri.t@gmail.com>
