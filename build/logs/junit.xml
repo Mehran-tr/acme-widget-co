@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="12" assertions="19" errors="0" warnings="0" failures="0" skipped="0" time="0.006755">
+    <testsuite name="Acme Widget Co Test Suite" tests="12" assertions="19" errors="0" warnings="0" failures="0" skipped="0" time="0.006755">
+      <testsuite name="SpecialOfferTest" file="/app/tests/Models/DeliveryChargeRuleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.005527">
+        <testcase name="testSpecialOfferApplication" class="SpecialOfferTest" classname="SpecialOfferTest" file="/app/tests/Models/DeliveryChargeRuleTest.php" line="10" assertions="1" time="0.005527"/>
+      </testsuite>
+      <testsuite name="ProductTest" file="/app/tests/Models/ProductTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.000027">
+        <testcase name="testProductCreation" class="ProductTest" classname="ProductTest" file="/app/tests/Models/ProductTest.php" line="8" assertions="2" time="0.000027"/>
+      </testsuite>
+      <testsuite name="DeliveryChargeRuleTest" file="/app/tests/Models/SpecialOfferTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.000087">
+        <testcase name="testDeliveryChargeRuleCreation" class="DeliveryChargeRuleTest" classname="DeliveryChargeRuleTest" file="/app/tests/Models/SpecialOfferTest.php" line="8" assertions="2" time="0.000087"/>
+      </testsuite>
+      <testsuite name="BasketTest" file="/app/tests/Services/BasketTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.000427">
+        <testcase name="testBasketTotalB01G01" class="BasketTest" classname="BasketTest" file="/app/tests/Services/BasketTest.php" line="29" assertions="1" time="0.000323">
+          <system-out>Test: B01, G01 | Expected: 37.85 | Actual: 37.85
+</system-out>
+        </testcase>
+        <testcase name="testBasketTotalR01R01" class="BasketTest" classname="BasketTest" file="/app/tests/Services/BasketTest.php" line="42" assertions="1" time="0.000036">
+          <system-out>Test: R01, R01 | Expected: 54.37 | Actual: 54.375
+</system-out>
+        </testcase>
+        <testcase name="testBasketTotalR01G01" class="BasketTest" classname="BasketTest" file="/app/tests/Services/BasketTest.php" line="54" assertions="1" time="0.000040">
+          <system-out>Test: R01, G01 | Expected: 60.85 | Actual: 60.85
+</system-out>
+        </testcase>
+        <testcase name="testBasketTotalB01B01R01R01R01" class="BasketTest" classname="BasketTest" file="/app/tests/Services/BasketTest.php" line="67" assertions="1" time="0.000028">
+          <system-out>Test: B01, B01, R01, R01, R01 | Expected: 98.27 | Actual: 98.275
+</system-out>
+        </testcase>
+      </testsuite>
+      <testsuite name="DeliveryServiceTest" file="/app/tests/Services/DeliveryServiceTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000031">
+        <testcase name="testCalculateDelivery" class="DeliveryServiceTest" classname="DeliveryServiceTest" file="/app/tests/Services/DeliveryServiceTest.php" line="9" assertions="3" time="0.000031"/>
+      </testsuite>
+      <testsuite name="OfferServiceTest" file="/app/tests/Services/OfferServiceTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000083">
+        <testcase name="testApplyOffers" class="OfferServiceTest" classname="OfferServiceTest" file="/app/tests/Services/OfferServiceTest.php" line="10" assertions="1" time="0.000083"/>
+      </testsuite>
+      <testsuite name="ProductServiceTest" file="/app/tests/Services/ProductServiceTest.php" tests="3" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.000574">
+        <testcase name="testGetProductByCode" class="ProductServiceTest" classname="ProductServiceTest" file="/app/tests/Services/ProductServiceTest.php" line="20" assertions="3" time="0.000207"/>
+        <testcase name="testGetProductByCodeNotFound" class="ProductServiceTest" classname="ProductServiceTest" file="/app/tests/Services/ProductServiceTest.php" line="28" assertions="1" time="0.000095"/>
+        <testcase name="testGetAllProducts" class="ProductServiceTest" classname="ProductServiceTest" file="/app/tests/Services/ProductServiceTest.php" line="34" assertions="2" time="0.000271"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
